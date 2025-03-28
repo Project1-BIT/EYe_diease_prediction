@@ -229,7 +229,7 @@ if submit:
             if disease_found:
                 st.success(f"Predicted Disease: {disease_found.title()} detected!")
             else:
-                st.success("The uploaded eye image shows no signs of disease")
+                st.success("The uploaded eye image shows  Healthy Eye")
         
         except Exception as e:
             st.error(f"An error occurred: {e}")
